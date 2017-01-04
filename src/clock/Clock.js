@@ -31,7 +31,6 @@ class Clock extends Component {
 
   tick() {
     this.setState(this.updateTime(this.state));
-    //console.log('s:', this.state.seconds);
   }
 
   componentDidMount() {

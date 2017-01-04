@@ -8,10 +8,9 @@ class About extends Component {
       <div className="About">
         <div className="About-header">
           <img src={logo} className="About-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+          <h2>Welcome to React Exercises</h2>
         </div>
         <p className="About-intro">
-          Start with create-react-app.
         </p>
       </div>
     );
