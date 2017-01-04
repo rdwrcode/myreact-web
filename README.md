@@ -1,4 +1,6 @@
 Just some exercises on react.
+Check the [live](https:://rdwrcode.github.io/myreact-web/)
+
 # Form
 # Analog Clock
 # deoply to github-pages
