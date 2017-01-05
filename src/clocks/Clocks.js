@@ -42,8 +42,7 @@ class Clocks extends Component {
     this.setState(this.updateTime(this.state));
   }
 
-  componentDidMount() {
-    this.interval = setInterval(() => this.tick(), 1000);
+  addDialLines() {
     // calculate each dial lines
     for (let i = 1; i < 60; i++) {
       const css_dial = {
@@ -51,6 +50,11 @@ class Clocks extends Component {
       }
       this.dialLines.push(<div style={css_dial} className='Clocks-diallines' key={i}></div>);
     }
+  }
+
+  componentDidMount() {
+    this.interval = setInterval(() => this.tick(), 1000);
+    this.addDialLines();
     // calculate today
     this.today = `${this.state.month}/${this.state.date}/${this.state.year}`;
   }

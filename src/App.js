@@ -6,6 +6,10 @@ import About from './about/About';
 //import Clock from './clock/Clock';
 import Clock from './clocks/Clocks';
 //import Gallery from './gallery/Gallery';
+//import D3svg from './d3experiments/D3ex';
+//import D3Chart from './d3experiments/Chart';
+//import Plot from './d3experiments/Plot';
+import ClusterContainer from './d3experiments/ClusterContainer';
 
 class App extends Component {
 
@@ -14,6 +18,8 @@ class App extends Component {
       <div className="App">
         <About />
         <Clock />
+        <hr />
+        <ClusterContainer />
         <hr />
       </div>
     );
