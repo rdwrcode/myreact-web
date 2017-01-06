@@ -1,12 +1,12 @@
 
 /* global d3 */
-//import * as d3 from 'd3';
 
+// here is d3 v3 instead of v4!
 function cluster({padding, clusterPadding, height, width, maxRadius, n, m, container}) {
   // taken straight from https://bl.ocks.org/mbostock/7881887
+  // D3-v4
   // d3.scaleOrdinal(d3.schemeCategory10);
-  // d3.scale.category10()
-  //var color = d3.scaleOrdinal(d3.schemeCategory10)
+  // D3-v3
   var color = d3.scale.category10()
       .domain(d3.range(m));
 
