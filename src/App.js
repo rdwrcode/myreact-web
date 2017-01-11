@@ -10,6 +10,7 @@ import Clock from './clocks/Clocks';
 //import D3Chart from './d3experiments/Chart';
 //import Plot from './d3experiments/Plot';
 import ClusterContainer from './d3experiments/ClusterContainer';
+import Flexbox from './layout/Flexbox';
 
 class App extends Component {
 
@@ -20,6 +21,8 @@ class App extends Component {
         <Clock />
         <hr />
         <ClusterContainer />
+        <hr />
+        <Flexbox />
         <hr />
       </div>
     );
