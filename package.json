@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "d3": "^4.4.0",
+    "glamor": "^2.20.20",
     "lodash": "^4.17.4",
     "react": "^15.4.1",
     "react-dom": "^15.4.1"

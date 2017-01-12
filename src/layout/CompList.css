@@ -1,0 +1,13 @@
+/*Make parent element a flex container*/
+ul {
+  list-style-type: none;
+  display: flex; /*or inline-flex*/
+  flex-direction: row-reverse;
+}
+
+li {
+  width: 100px;
+  height: 100px;
+  background-color: #8cacea;
+  margin: 8px;
+}
