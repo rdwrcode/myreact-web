@@ -1,0 +1,12 @@
+.CompRadio {
+  display: flex;
+  align-content: center;
+}
+
+input[type=radio] { 
+  color:white; 
+}
+
+input[type=radio]:checked + label {
+  color:orange; 
+}
