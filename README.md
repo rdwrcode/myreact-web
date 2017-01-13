@@ -1,5 +1,5 @@
 # Some exercises with React
-Check the [live](https://rdwrcode.github.io/myreact-web/) here.
+[Live](https://rdwrcode.github.io/myreact-web/) here.
 
 ## 1. Form
 
@@ -24,4 +24,6 @@ yarn add --dev gh-pages
 ## 4. Use the CSS from [this clock](https://codepen.io/vaskopetrov/pen/yVEXjz) 
 
 ## 5. Visualization [this tutorial about d3 and react](http://www.jeromecukier.net/blog/2016/08/09/visualization-with-react/)
+
+## 6. Play with [flexbox layout](http://codepen.io/enxaneta/pen/adLPwv)
 
