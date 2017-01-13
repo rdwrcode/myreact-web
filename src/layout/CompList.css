@@ -2,7 +2,6 @@
 ul {
   list-style-type: none;
   display: flex; /*or inline-flex*/
-  flex-direction: row;
 }
 
 li {

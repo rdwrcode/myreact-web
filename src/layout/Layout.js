@@ -3,8 +3,8 @@ import './Layout.css';
 
 import CompList from './CompList';
 import CompRadio from './CompRadio';
-import CompButton from './CompButton';
-import CompDropdown from './CompDropdown';
+//import CompButton from './CompButton';
+//import CompDropdown from './CompDropdown';
 
 const flexdirections = ["row","row-reverse","column","column-reverse"];
 
@@ -12,7 +12,7 @@ class Layout extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      direction: 0
+      dir: 'raw'
     };
 
     this.radioSelected = this.radioSelected.bind(this);
@@ -21,7 +21,8 @@ class Layout extends Component {
   }
 
   radioSelected(obj) {
-    console.log(obj);
+    //console.log(obj);
+    this.setState({dir: obj.value})
   }
 
   buttonClicked() {
@@ -38,13 +39,23 @@ class Layout extends Component {
   render() {
     return (
       <div className="Layout">
-        <CompList />
-        <CompButton text='click me' cb={this.buttonClicked} />
-        <CompDropdown options={flexdirections} defaultIndex='0' cb={this.dropdownChanged}/>
-        <CompRadio options={flexdirections} cb={this.radioSelected} defaultIndex='0'/>
+        <div className="Layout-control">
+          <h2>Properties for the flexbox container</h2>
+          <h4>flex-direction<small>( property of the flex container  )</small></h4>
+          <CompRadio options={flexdirections} 
+            cb={this.radioSelected} 
+            defaultIndex='0'/>
+        </div>
+        <CompList dir={this.state.dir}/>
       </div>
     );
   }
 }
 
 export default Layout;
+
+/* 
+  <CompButton text='click me' cb={this.buttonClicked} />
+  <CompDropdown options={flexdirections} defaultIndex='0' cb={this.dropdownChanged}/>
+  <CompRadio options={flexdirections} cb={this.radioSelected} defaultIndex='0'/>
+*/
