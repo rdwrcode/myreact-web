@@ -67,7 +67,7 @@ class Clocks extends Component {
     // starting position is 12 Clock
     const secondsDegrees = ((this.state.seconds / 60) * 360);
     const minsDegrees = ((this.state.minutes / 60) * 360 + this.state.seconds/60);
-    const hourDegrees = ((this.state.hour / 12) * 360 + this.state.minutes/2);
+    const hourDegrees = ((this.state.hour / 12) * 360 + this.state.minutes/2); // add seconds movements to be accurate? no.
 
     const s = `rotate(${secondsDegrees}deg)`;
     const m = `rotate(${minsDegrees}deg)`;
