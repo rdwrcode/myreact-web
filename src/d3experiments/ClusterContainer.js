@@ -5,6 +5,7 @@ class ClusterContainer extends React.Component {
   render() {
     return (
       <div>
+        <h2>D3 with React</h2>
         {[
           {id: 0, clusterPadding: 0, height: 100, m: 1, maxRadius: 10, n: 10, padding: 1.5, width: 200},
           {id: 1, height: 400},
