@@ -1,5 +1,5 @@
 # Some exercises with React
-[Live](https://rdwrcode.github.io/myreact-web/) here.
+[View Live Site](https://rdwrcode.github.io/myreact-web/) here.
 
 ## 1. Form
 
