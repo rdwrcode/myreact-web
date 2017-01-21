@@ -27,6 +27,7 @@ class App extends Component {
         <Layout />
         <hr />
         <Animation />
+        <hr />
       </div>
     );
   }
