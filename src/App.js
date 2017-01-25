@@ -13,6 +13,8 @@ import ClusterContainer from './d3experiments/ClusterContainer';
 //import Flexbox from './layout/Flexbox';
 import Layout from './layout/Layout';
 import Animation from './css/Animation';
+// this is very special example
+import Counter from './secret/State';
 
 class App extends Component {
 
@@ -27,7 +29,7 @@ class App extends Component {
         <Layout />
         <hr />
         <Animation />
-        <hr />
+        <Counter step={5} />
       </div>
     );
   }

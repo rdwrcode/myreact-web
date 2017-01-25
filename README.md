@@ -12,5 +12,5 @@
 
 ## 6. Play with [flexbox layout](http://codepen.io/enxaneta/pen/adLPwv)
 
-## 7. Exercises with CSS transition, transform and animations
+## 7. Exercises with CSS transition, transform and animations from [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)
 

@@ -1,3 +1,7 @@
+.Animation {
+  background-color: black;
+}
+
 /* first example */
 .box1 {
   border-style: solid;
@@ -22,11 +26,10 @@
 /* container */
 .container {
   margin: 0px auto;
-  width: 486px;
   float: left;
-  background: #347fc3;
+  width: 486px;
   border: 1px solid #fff;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 .box {
@@ -35,7 +38,7 @@
   float: left;
   background: #347fc3;
   border: 1px solid #fff;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .text {
